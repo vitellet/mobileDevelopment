@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--adding items-->
+    <item
+        android:id="@+id/title1"
+        android:checkable="true"
+        android:title="All Terms"
+        android:checked="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/title2"
+        android:checkable="true"
+        android:title="Saved Terms"
+        android:checked="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/title3"
+        android:checkable="true"
+        android:title="Other"
+        android:checked="false"
+        app:showAsAction="never" />
+
+
+</menu>
